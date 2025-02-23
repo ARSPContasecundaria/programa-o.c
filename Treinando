@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(){
+int idade;
+float altura;
+char nome [50];
+int matrícula;
+printf("Digite sua idade:/n");
+scanf( "%d", &idade);
+
+print("Digite sua altura: \n");
+scanf("%f" , &altura);
+
+printf("Digite o seu nome: \n");
+scanf("%s", &nome);
+
+printf("Digite sua matrícula \n");
+scanf("%d" &matricula);
+
+printf("nome do aluno: %s - matrícula. %d" , nome, matrícula);
+printf("idade: %d -Altura: %f",idade,altura);
+
+return 0;
+}
